@@ -1,0 +1,250 @@
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project % python3 baseline_client.py
+[*] Measuring baseline latency (50 requests)...
+
+  Request #01 | Latency: 0.62 ms
+  Request #02 | Latency: 0.57 ms
+  Request #03 | Latency: 0.56 ms
+  Request #04 | Latency: 3.00 ms
+  Request #05 | Latency: 1.53 ms
+  Request #06 | Latency: 0.62 ms
+  Request #07 | Latency: 1.47 ms
+  Request #08 | Latency: 1.83 ms
+  Request #09 | Latency: 1.45 ms
+  Request #10 | Latency: 1.87 ms
+  Request #11 | Latency: 0.85 ms
+  Request #12 | Latency: 1.56 ms
+  Request #13 | Latency: 1.84 ms
+  Request #14 | Latency: 1.48 ms
+  Request #15 | Latency: 1.56 ms
+  Request #16 | Latency: 1.31 ms
+  Request #17 | Latency: 1.72 ms
+  Request #18 | Latency: 1.85 ms
+  Request #19 | Latency: 1.52 ms
+  Request #20 | Latency: 1.47 ms
+  Request #21 | Latency: 2.16 ms
+  Request #22 | Latency: 1.48 ms
+  Request #23 | Latency: 1.40 ms
+  Request #24 | Latency: 1.84 ms
+  Request #25 | Latency: 0.87 ms
+  Request #26 | Latency: 1.57 ms
+  Request #27 | Latency: 1.73 ms
+  Request #28 | Latency: 1.62 ms
+  Request #29 | Latency: 1.33 ms
+  Request #30 | Latency: 1.26 ms
+  Request #31 | Latency: 2.01 ms
+  Request #32 | Latency: 1.46 ms
+  Request #33 | Latency: 1.51 ms
+  Request #34 | Latency: 0.92 ms
+  Request #35 | Latency: 0.92 ms
+  Request #36 | Latency: 1.58 ms
+  Request #37 | Latency: 0.85 ms
+  Request #38 | Latency: 0.55 ms
+  Request #39 | Latency: 0.64 ms
+  Request #40 | Latency: 0.57 ms
+  Request #41 | Latency: 0.62 ms
+  Request #42 | Latency: 1.40 ms
+  Request #43 | Latency: 2.24 ms
+  Request #44 | Latency: 0.93 ms
+  Request #45 | Latency: 1.70 ms
+  Request #46 | Latency: 1.62 ms
+  Request #47 | Latency: 2.67 ms
+  Request #48 | Latency: 1.76 ms
+  Request #49 | Latency: 0.89 ms
+  Request #50 | Latency: 1.61 ms
+
+[*] Baseline complete.
+[*] Average latency: 1.41 ms
+[*] Results saved to latency_results.csv
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project % cp latency_results_before_attack.csv
+usage: cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file target_file
+       cp [-R [-H | -L | -P]] [-fi | -n] [-aclpSsvXx] source_file ... target_directory
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project % cp latency_results.csv latency_results_before_attack.csv
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project %
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project %
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project % python3 baseline_client.py
+[*] Measuring baseline latency (50 requests)...
+
+  Request #01 | Latency: 0.44 ms
+  Request #02 | Latency: 0.56 ms
+  Request #03 | Latency: 1.53 ms
+  Request #04 | Latency: 1.53 ms
+  Request #05 | Latency: 1.63 ms
+  Request #06 | Latency: 1.12 ms
+  Request #07 | Latency: 1.50 ms
+  Request #08 | Latency: 1.62 ms
+  Request #09 | Latency: 0.88 ms
+  Request #10 | Latency: 2.98 ms
+  Request #11 | Latency: 0.91 ms
+  Request #12 | Latency: 0.81 ms
+  Request #13 | Latency: 0.85 ms
+  Request #14 | Latency: 1.09 ms
+  Request #15 | Latency: 0.85 ms
+  Request #16 | Latency: 0.80 ms
+  Request #17 | Latency: 1.80 ms
+  Request #18 | Latency: 1.70 ms
+  Request #19 | Latency: 1.71 ms
+  Request #20 | Latency: 0.44 ms
+  Request #21 | Latency: 0.96 ms
+  Request #22 | Latency: 1.45 ms
+  Request #23 | Latency: 1.14 ms
+  Request #24 | Latency: 1.13 ms
+  Request #25 | Latency: 0.79 ms
+  Request #26 | Latency: 1.38 ms
+  Request #27 | Latency: 1.75 ms
+  Request #28 | Latency: 1.61 ms
+  Request #29 | Latency: 1.65 ms
+  Request #30 | Latency: 1.39 ms
+  Request #31 | Latency: 2.19 ms
+  Request #32 | Latency: 1.59 ms
+  Request #33 | Latency: 1.90 ms
+  Request #34 | Latency: 1.72 ms
+  Request #35 | Latency: 1.61 ms
+  Request #36 | Latency: 1.59 ms
+  Request #37 | Latency: 0.94 ms
+  Request #38 | Latency: 1.70 ms
+  Request #39 | Latency: 1.24 ms
+  Request #40 | Latency: 2.17 ms
+  Request #41 | Latency: 1.69 ms
+  Request #42 | Latency: 1.50 ms
+  Request #43 | Latency: 1.40 ms
+  Request #44 | Latency: 1.41 ms
+  Request #45 | Latency: 1.76 ms
+  Request #46 | Latency: 1.58 ms
+  Request #47 | Latency: 1.53 ms
+  Request #48 | Latency: 1.33 ms
+  Request #49 | Latency: 1.41 ms
+  Request #50 | Latency: 1.64 ms
+
+[*] Baseline complete.
+[*] Average latency: 1.40 ms
+[*] Results saved to latency_results.csv
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project % cp latency_results.csv latency_results_before_attack.csv
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project % cp latency_results.csv baseline.csv
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project % ls
+'Icon'$'\r'      Untitled-4.py   baseline.csv        'import matplotlib.py'   latency_results_before_attack.csv   syn_flood_1.py             victim_server.py
+ Untitled-3.py   Untitled-5.py   baseline_client.py   latency_results.csv     syn_flood.py                        traceroute_animation.mp4
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project % nano syn_flood.py
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project % nano syn_flood_1.py
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project % python3 syn_flood_1.py
+[*] Starting SYN Flood on 127.0.0.1:9999
+[*] Duration: 60s | Rate: 2000 pkt/s
+
+
+[METER] Starting latency measurement during attack...
+  [METER] Request #01 | Latency: 0.48 ms
+  [METER] Request #02 | Latency: 0.89 ms
+  [METER] Request #03 | Latency: 1.14 ms
+  [METER] Request #04 | Latency: 1.16 ms
+  [METER] Request #05 | Latency: 1.11 ms
+  [METER] Request #06 | Latency: 0.73 ms
+  [METER] Request #07 | Latency: 1.47 ms
+  [METER] Request #08 | Latency: 0.44 ms
+  [METER] Request #09 | Latency: 1.17 ms
+  [METER] Request #10 | Latency: 0.88 ms
+  [METER] Request #11 | Latency: 1.33 ms
+  [METER] Request #12 | Latency: 1.24 ms
+  [METER] Request #13 | Latency: 2.35 ms
+  [METER] Request #14 | Latency: 1.49 ms
+  [METER] Request #15 | Latency: 1.43 ms
+  [METER] Request #16 | Latency: 0.64 ms
+  [METER] Request #17 | Latency: 1.04 ms
+  [METER] Request #18 | Latency: 1.75 ms
+  [METER] Request #19 | Latency: 1.42 ms
+  [METER] Request #20 | Latency: 1.78 ms
+  [METER] Request #21 | Latency: 143.76 ms
+  [METER] Request #22 | Latency: 0.82 ms
+  [METER] Request #23 | Latency: 1.32 ms
+  [METER] Request #24 | Latency: 1.66 ms
+  [METER] Request #25 | Latency: 1.87 ms
+  [METER] Request #26 | Latency: 1.10 ms
+  [METER] Request #27 | Latency: 0.81 ms
+  [METER] Request #28 | Latency: 2.36 ms
+  [METER] Request #29 | Latency: 1.05 ms
+  [METER] Request #30 | Latency: 1.47 ms
+  [METER] Request #31 | Latency: 1.77 ms
+  [METER] Request #32 | Latency: 3.19 ms
+  [METER] Request #33 | Latency: 2.35 ms
+  [METER] Request #34 | Latency: 2.61 ms
+  [METER] Request #35 | Latency: 1.40 ms
+  [METER] Request #36 | Latency: 1.35 ms
+  [METER] Request #37 | Latency: 2.97 ms
+  [METER] Request #38 | Latency: 1.45 ms
+  [METER] Request #39 | Latency: 0.59 ms
+  [METER] Request #40 | Latency: 0.57 ms
+  [METER] Request #41 | Latency: 0.80 ms
+  [METER] Request #42 | Latency: 0.61 ms
+  [METER] Request #43 | Latency: 0.66 ms
+  [METER] Request #44 | Latency: 3.31 ms
+  [METER] Request #45 | Latency: 0.82 ms
+  [METER] Request #46 | Latency: 0.79 ms
+  [METER] Request #47 | Latency: 0.86 ms
+  [METER] Request #48 | Latency: 1.60 ms
+  [METER] Request #49 | Latency: 1.15 ms
+  [METER] Request #50 | Latency: 0.61 ms
+
+[*] Attack complete! Sent 31894 SYN packets
+[*] Average latency DURING attack: 4.19 ms
+[*] Results saved to during_attack.csv
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project % ls
+'Icon'$'\r'      Untitled-4.py   baseline.csv         during_attack.csv       latency_results.csv                 syn_flood.py     traceroute_animation.mp4
+ Untitled-3.py   Untitled-5.py   baseline_client.py  'import matplotlib.py'   latency_results_before_attack.csv   syn_flood_1.py   victim_server.py
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project % rm -rf latency_results_before_attack.csv
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project % python3 baseline_client.py
+[*] Measuring baseline latency (50 requests)...
+
+  Request #01 | Latency: 0.42 ms
+  Request #02 | Latency: 0.43 ms
+  Request #03 | Latency: 1.99 ms
+  Request #04 | Latency: 1.80 ms
+  Request #05 | Latency: 1.30 ms
+  Request #06 | Latency: 0.62 ms
+  Request #07 | Latency: 0.62 ms
+  Request #08 | Latency: 0.53 ms
+  Request #09 | Latency: 0.95 ms
+  Request #10 | Latency: 1.55 ms
+  Request #11 | Latency: 1.36 ms
+  Request #12 | Latency: 1.73 ms
+  Request #13 | Latency: 0.91 ms
+  Request #14 | Latency: 1.99 ms
+  Request #15 | Latency: 0.85 ms
+  Request #16 | Latency: 1.93 ms
+  Request #17 | Latency: 1.48 ms
+  Request #18 | Latency: 1.71 ms
+  Request #19 | Latency: 1.64 ms
+  Request #20 | Latency: 0.83 ms
+  Request #21 | Latency: 1.85 ms
+  Request #22 | Latency: 1.45 ms
+  Request #23 | Latency: 1.90 ms
+  Request #24 | Latency: 1.40 ms
+  Request #25 | Latency: 1.30 ms
+  Request #26 | Latency: 1.27 ms
+  Request #27 | Latency: 1.50 ms
+  Request #28 | Latency: 1.45 ms
+  Request #29 | Latency: 2.08 ms
+  Request #30 | Latency: 1.69 ms
+  Request #31 | Latency: 2.29 ms
+  Request #32 | Latency: 1.28 ms
+  Request #33 | Latency: 1.40 ms
+  Request #34 | Latency: 2.26 ms
+  Request #35 | Latency: 1.52 ms
+  Request #36 | Latency: 1.17 ms
+  Request #37 | Latency: 1.48 ms
+  Request #38 | Latency: 1.59 ms
+  Request #39 | Latency: 0.85 ms
+  Request #40 | Latency: 1.64 ms
+  Request #41 | Latency: 2.02 ms
+  Request #42 | Latency: 1.52 ms
+  Request #43 | Latency: 1.06 ms
+  Request #44 | Latency: 0.86 ms
+  Request #45 | Latency: 1.70 ms
+  Request #46 | Latency: 1.26 ms
+  Request #47 | Latency: 1.79 ms
+  Request #48 | Latency: 1.66 ms
+  Request #49 | Latency: 1.91 ms
+  Request #50 | Latency: 1.85 ms
+
+[*] Baseline complete.
+[*] Average latency: 1.43 ms
+[*] Results saved to latency_results.csv
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project % cp latency_results.csv after_attack.csv
+(.venv) rifatbinrashid@Rifats-MacBook-Pro-5 CommNet2/Security Project %
